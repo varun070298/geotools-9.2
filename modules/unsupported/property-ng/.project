@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>geotools-9.2_gt-property-ng</name>
+	<comment>DataStore using Java properties files, a useful reference implementation
+    for test cases. The next generation implementation is based on ContentDataStore
+    and supports the use of ResourceId to support history.</comment>
+	<projects>
+		<project>gt-api</project>
+		<project>gt-cql</project>
+		<project>gt-data</project>
+		<project>gt-epsg-hsql</project>
+		<project>gt-main</project>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-referencing</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>geotools-9.2_gt-render</name>
+	<comment>The render module contains a renderer built around the interface in
+    api and main. This is a first class geotools module as creating a
+    visual representation of features is considered key to most geospatial
+    applications.</comment>
+	<projects>
+		<project>gt-api</project>
+		<project>gt-coverage</project>
+		<project>gt-cql</project>
+		<project>gt-epsg-hsql</project>
+		<project>gt-geotiff</project>
+		<project>gt-main</project>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-property</project>
+		<project>gt-referencing</project>
+		<project>gt-sample-data</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

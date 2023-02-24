@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>geotools-9.2_gt-process-raster</name>
+	<comment>Processes for handling of raster information; often wrapping up jai-tools
+      functionality.</comment>
+	<projects>
+		<project>gt-api</project>
+		<project>gt-coverage</project>
+		<project>gt-cql</project>
+		<project>gt-data</project>
+		<project>gt-main</project>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-process</project>
+		<project>gt-property</project>
+		<project>gt-referencing</project>
+		<project>gt-render</project>
+		<project>gt-sample-data</project>
+		<project>gt-shapefile</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

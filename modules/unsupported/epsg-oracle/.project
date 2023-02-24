@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>geotools-9.2_gt-epsg-oracle</name>
+	<comment>This plugin allows you to make use of an oracle database as the host of your
+    CoordinateReferenceSystem definitions. The table names and content are provided
+    by the EPSG database (distributed in access format) and can be loaded using 
+    a provided SQL script.</comment>
+	<projects>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-referencing</project>
+		<project>gt-sample-data</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>geotools-9.2_gt-matfile5</name>
+	<comment>Extension of the of Grid Coverage plugins, to read matlab files with georefencing information.</comment>
+	<projects>
+		<project>gt-api</project>
+		<project>gt-coverage</project>
+		<project>gt-epsg-hsql</project>
+		<project>gt-geotiff</project>
+		<project>gt-main</project>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-referencing</project>
+		<project>gt-sample-data</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

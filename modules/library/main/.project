@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>geotools-9.2_gt-main</name>
+	<comment>The main module contains the default implementations of the data model
+    that are used by other GeoTools modules.</comment>
+	<projects>
+		<project>gt-api</project>
+		<project>gt-epsg-hsql</project>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-referencing</project>
+		<project>gt-sample-data</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

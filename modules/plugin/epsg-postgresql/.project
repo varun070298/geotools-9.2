@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>geotools-9.2_gt-epsg-postgresql</name>
+	<comment>Connection to an EPSG postgreSQL database.
+    This database should be built by the user from the SQL scripts delivered by EPSG.</comment>
+	<projects>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-referencing</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
